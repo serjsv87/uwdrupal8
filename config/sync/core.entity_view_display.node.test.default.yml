@@ -1,0 +1,46 @@
+uuid: cad36629-f059-4261-ae01-d41bed3f5026
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.test.body
+    - field.field.node.test.comment
+    - field.field.node.test.field_ema
+    - node.type.test
+  module:
+    - comment
+    - text
+    - user
+id: node.test.default
+targetEntityType: node
+bundle: test
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_ema:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

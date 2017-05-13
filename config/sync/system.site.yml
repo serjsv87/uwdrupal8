@@ -1,0 +1,14 @@
+uuid: f9322262-1ccb-4e7e-a7b0-feca5497c814
+name: '34555555'
+mail: 3456q@sdg.df
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
